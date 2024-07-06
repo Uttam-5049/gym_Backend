@@ -1,0 +1,57 @@
+[
+    {
+        "response": "",
+        "listOfWords": "",
+        "requiredWords": ""
+    },
+    {
+        "response": "For general fitness, aim to work out 3-5 times per week. This should include a mix of cardio (like running or cycling), strength training (like weightlifting or bodyweight exercises), and flexibility exercises (like stretching or yoga) to ensure a balanced routine. Make sure to listen to your body and allow for rest and recovery days as needed.",
+        "listOfWords": "How often should I work out each week?",
+        "requiredWords": "how often workout"
+    },
+    {
+        "response": "Before a workout, eat a small meal or snack that includes both protein and carbohydrates. Good options are a banana with peanut butter, a small bowl of oatmeal with fruit, or yogurt with granola. Aim to eat 30 minutes to 2 hours before exercising to give your body time to digest.",
+        "listOfWords": "What should I eat before a workout?",
+        "requiredWords": "what eat before workout"
+    },
+    {
+        "response": "The recommended daily protein intake is about 0.8 grams per kilogram of body weight for the average adult. For those who are active or looking to build muscle, 1.2 to 2.2 grams per kilogram is often suggested. For example, a 70 kg (154 lb) person should aim for 56 grams to 154 grams of protein per day, depending on their activity level and goals. If you're losing weight, you should still eat enough protein to minimize muscle loss.",
+        "listOfWords": "How much protein should I consume daily?",
+        "requiredWords": "how much protein each day"
+    },
+    {
+        "response": "The best exercises for losing weight include high-intensity interval training (HIIT), running, cycling, and swimming. These cardio workouts burn a lot of calories and can boost your metabolism. Strength training is also important as it builds muscle, which helps increase your overall calorie burn even at rest.",
+        "listOfWords": "What exercises are best for losing weight?",
+        "requiredWords": "what exercise good best weightloss losing weight"
+    },
+    {
+        "response": "Low-calorie snacks that are satisfying include options like fresh fruit such as apples or berries, raw vegetables like carrot sticks or cucumber slices with hummus, a small handful of nuts or seeds, or a plain rice cake with a light spread of almond butter. These snacks provide nutrients without packing on too many calories.",
+        "listOfWords": "Can you suggest some low calorie snacks?",
+        "requiredWords": "suggest low calorie snacks"
+    },
+    {
+        "response": "The best supplements for muscle growth typically include protein powders (such as whey protein) and creatine monohydrate. These two are more than enough for most people, and can support muscle recovery, protein synthesis, and overall strength gains when combined with a balanced diet and regular resistance training. It is however important to consult with a healthcare professional or a registered dietitian before starting any new supplements to ensure they fit your individual needs and health goals.",
+        "listOfWords": "What are the best supplements for muscle growth?",
+        "requiredWords": "what best good supplement muscle"
+    },
+    {
+        "response": "To set realistic fitness goals, define a specific objective, like losing a set amount of weight or improving endurance. Make sure it's measurable, such as by using metrics like weight, time, or repetitions. Ensure it's achievable based on your current fitness level. Align the goal with your overall fitness aspirations and set a time frame for achieving it, such as within a few months.",
+        "listOfWords": "How do I set realistic fitness goals?",
+        "requiredWords": "how set realisitic healthy goals fitness"
+    },
+    {
+        "response": "Effective warm-up exercises include dynamic stretches like leg swings, arm circles, and lunges to increase blood flow and flexibility. Incorporate light aerobic activities such as jogging or jumping jacks to raise your heart rate gradually. Focus on movements that mimic the activity you're about to do, preparing your muscles and joints for optimal performance while reducing the risk of injury.",
+        "listOfWords": "What are the best warm-up exercises?",
+        "requiredWords": "what good best healthy warmup exercise"
+    },
+    {
+        "response": "Staying motivated to work out involves setting realistic goals, varying your routine to keep it interesting, finding an exercise you enjoy, and scheduling workouts as a regular part of your day. Additionally, tracking your progress, seeking support from friends or a fitness community, and rewarding yourself for achieving milestones can help maintain motivation over time.",
+        "listOfWords": "How do I stay motivated to work out?",
+        "requiredWords": "how motivation motivated workout exercise"
+    },
+    {
+        "response": "Exercise helps with stress relief by triggering the release of endorphins, which are chemicals in the brain that act as natural mood lifters. It also reduces levels of stress hormones like cortisol. Regular physical activity improves sleep quality, boosts self-esteem, and provides a distraction from daily worries, all contributing to reduced stress levels and improved overall mental well-being.",
+        "listOfWords": "How does exercise help with stress relief",
+        "requiredWords": "how exercise stress relief"
+    }
+]

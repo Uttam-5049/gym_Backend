@@ -1,0 +1,110 @@
+[
+    {
+        "id": "HELLO",
+        "response": "<b>Hello</b>, I will be your Virtual Fitness Assistant today. Let's start by doing an elementary examination of your fitness.<br/>What is your current weight (in kilograms)?",
+        "stored": 1,
+        "storage_key": "WEIGHT",
+        "options": {},
+        "further_instructions": "",
+        "next_response_id": "ASK_HEIGHT"
+    },
+    {
+        "id": "ASK_HEIGHT",
+        "response": "What is your current height (in centimeters)?",
+        "stored": 1,
+        "storage_key": "HEIGHT",
+        "options": {},
+        "further_instructions": "",
+        "next_response_id": "FITNESS_GOAL"
+    },
+    {
+        "id": "FITNESS_GOAL",
+        "response": "What is your current fitness goal?\na. Weight Gain or b. Weight Loss",
+        "stored": 1,
+        "storage_key": "FITNESS_GOAL",
+        "options": {"weight gain": "WEIGHT_GAIN", "weight loss": "WEIGHT_LOSS"},
+        "further_instructions": "",
+        "next_response_id": "none"
+    },
+    {
+        "id": "WEIGHT_GAIN",
+        "response": "<p>Gaining weight in a healthy and sustainable way involves focusing on nutrient-dense foods and maintaining a balanced diet. Here are some comprehensive tips and a detailed meal plan for the week to help you get started on your journey:</p> <h2>Tips to Increase Weight:</h2> <ol> <li><strong>Eat More Calories:</strong> Consume more calories than you burn. Aim for a surplus of 500-700 calories per day.</li> <li><strong>Choose Nutrient-Dense Foods:</strong> Opt for whole grains, lean proteins, healthy fats, and plenty of fruits and vegetables.</li> <li><strong>Eat Frequently:</strong> Have 5-6 smaller meals throughout the day rather than 2-3 large meals.</li> <li><strong>Include Protein:</strong> Protein is essential for muscle growth. Include sources like chicken, fish, eggs, beans, and dairy.</li> <li><strong>Healthy Snacks:</strong> Snack on nuts, seeds, cheese, dried fruits, and smoothies.</li> <li><strong>Strength Training:</strong> Combine your diet with strength training exercises to build muscle mass.</li> </ol> <h2>Demo Meal Plan for the Week:</h2> <h3>Day 1:</h3> <ul> <li><strong>Breakfast:</strong> Oatmeal with banana, nuts, and honey</li> <li><strong>Snack:</strong> Greek yogurt with berries</li> <li><strong>Lunch:</strong> Grilled chicken breast with quinoa and steamed vegetables</li> <li><strong>Snack:</strong> Apple slices with peanut butter</li> <li><strong>Dinner:</strong> Baked salmon with sweet potato and asparagus</li> <li><strong>Snack:</strong> Cottage cheese with pineapple</li> </ul> <h3>Day 2:</h3> <ul> <li><strong>Breakfast:</strong> Scrambled eggs with spinach and whole grain toast</li> <li><strong>Snack:</strong> Trail mix with nuts and dried fruit</li> <li><strong>Lunch:</strong> Turkey and avocado sandwich on whole grain bread</li> <li><strong>Snack:</strong> Smoothie with protein powder, banana, and almond milk</li> <li><strong>Dinner:</strong> Beef stir-fry with brown rice and mixed vegetables</li> <li><strong>Snack:</strong> Cheese and whole grain crackers</li> </ul> <h3>Day 3:</h3> <ul> <li><strong>Breakfast:</strong> Smoothie bowl with mixed berries, granola, and chia seeds</li> <li><strong>Snack:</strong> Hard-boiled eggs</li> <li><strong>Lunch:</strong> Lentil soup with whole grain bread</li> <li><strong>Snack:</strong> Hummus with carrot and celery sticks</li> <li><strong>Dinner:</strong> Grilled shrimp with couscous and a side salad</li> <li><strong>Snack:</strong> Almond butter on a whole grain rice cake</li> </ul> <h3>Day 4:</h3> <ul> <li><strong>Breakfast:</strong> Whole grain pancakes with maple syrup and fresh fruit</li> <li><strong>Snack:</strong> Cottage cheese with sliced peaches</li> <li><strong>Lunch:</strong> Chicken and avocado salad with a vinaigrette dressing</li> <li><strong>Snack:</strong> Protein bar</li> <li><strong>Dinner:</strong> Pork chops with mashed potatoes and green beans</li> <li><strong>Snack:</strong> Greek yogurt with honey</li> </ul> <h3>Day 5:</h3> <ul> <li><strong>Breakfast:</strong> Whole grain cereal with milk and a banana</li> <li><strong>Snack:</strong> Smoothie with spinach, apple, and protein powder</li> <li><strong>Lunch:</strong> Tuna salad sandwich on whole grain bread</li> <li><strong>Snack:</strong> Mixed nuts</li> <li><strong>Dinner:</strong> Baked chicken thighs with brown rice and broccoli</li> <li><strong>Snack:</strong> Dark chocolate and a glass of milk</li> </ul> <h3>Day 6:</h3> <ul> <li><strong>Breakfast:</strong> Bagel with cream cheese and smoked salmon</li> <li><strong>Snack:</strong> Fresh fruit salad</li> <li><strong>Lunch:</strong> Quinoa salad with chickpeas, tomatoes, and cucumbers</li> <li><strong>Snack:</strong> Avocado toast</li> <li><strong>Dinner:</strong> Spaghetti with meatballs and marinara sauce</li> <li><strong>Snack:</strong> Pudding made with whole milk</li> </ul> <h3>Day 7:</h3> <ul> <li><strong>Breakfast:</strong> Omelette with cheese, peppers, and onions</li> <li><strong>Snack:</strong> Protein shake</li> <li><strong>Lunch:</strong> Veggie burger on a whole grain bun with sweet potato fries</li> <li><strong>Snack:</strong> Banana with almond butter</li> <li><strong>Dinner:</strong> Grilled steak with a baked potato and a side of green beans</li> <li><strong>Snack:</strong> Yogurt with granola</li> </ul> <p>Feel free to adjust the portions and ingredients based on your preferences and nutritional needs. This meal plan aims to provide a balanced approach to gaining weight healthily while ensuring you receive the necessary nutrients.</p>",
+        "stored": 0,
+        "storage_key": "",
+        "options": {},
+        "further_instructions": "$ WORKOUT_PLAN",
+        "next_response_id": "WORKOUT_PLAN"
+    },
+    {
+        "id": "WEIGHT_LOSS",
+        "response": "<p>Sure! Here’s a workout plan designed to help you burn calories and lose weight. This plan incorporates more cardio exercises along with light strength training to promote fat loss and improve overall fitness.</p> <h2>Weight Loss Workout Plan:</h2> <h3>Monday: Full Body Cardio and Strength</h3> <ul> <li><strong>Warm-Up:</strong> 5 minutes of brisk walking or light jogging</li> <li>Bodyweight Squats: 2 sets of 15 reps</li> <li>Push-Ups (modified if needed): 2 sets of 10 reps</li> <li>Walking Lunges: 2 sets of 12 reps per leg</li> <li>Dumbbell Rows (light weight): 2 sets of 15 reps per arm</li> <li>Jumping Jacks: 2 sets of 30 seconds</li> <li><strong>Cool Down:</strong> 5 minutes of stretching</li> </ul> <h3>Tuesday: Cardio Focus</h3> <ul> <li><strong>Warm-Up:</strong> 5 minutes of light jogging</li> <li><strong>Steady-State Cardio (choose one):</strong> <ul> <li>30 minutes of brisk walking</li> <li>30 minutes of cycling at a comfortable pace</li> <li>30 minutes on an elliptical machine at a moderate intensity</li> </ul> </li> <li><strong>Cool Down:</strong> 5 minutes of stretching</li> </ul> <h3>Wednesday: Active Recovery</h3> <p>Engage in light activity such as a 20-30 minute leisurely walk, gentle yoga, or stretching exercises.</p> <h3>Thursday: Upper Body and Cardio</h3> <ul> <li><strong>Warm-Up:</strong> 5 minutes of light jogging</li> <li>Seated Dumbbell Shoulder Press (light weight): 2 sets of 15 reps</li> <li>Bicep Curls (light weight): 2 sets of 15 reps</li> <li>Tricep Extensions (light weight): 2 sets of 15 reps</li> <li><strong>Low-Impact Cardio (choose one):</strong> <ul> <li>20 minutes of swimming</li> <li>20 minutes of a low-impact aerobics class</li> </ul> </li> <li><strong>Cool Down:</strong> 5 minutes of stretching</li> </ul> <h3>Friday: Lower Body and Cardio</h3> <ul> <li><strong>Warm-Up:</strong> 5 minutes of brisk walking</li> <li>Bodyweight Squats: 2 sets of 15 reps</li> <li>Glute Bridges: 2 sets of 15 reps</li> <li>Standing Calf Raises: 2 sets of 20 reps</li> <li><strong>Low-Impact Cardio (choose one):</strong> <ul> <li>20 minutes of water aerobics</li> <li>20 minutes of cycling at a moderate pace</li> </ul> </li> <li><strong>Cool Down:</strong> 5 minutes of stretching</li> </ul> <h3>Saturday: Full Body Cardio and Strength</h3> <ul> <li><strong>Warm-Up:</strong> 5 minutes of brisk walking or light jogging</li> <li>Dumbbell Deadlifts (light weight): 2 sets of 15 reps</li> <li>Modified Push-Ups: 2 sets of 10 reps</li> <li>Step-Ups onto a bench or sturdy chair: 2 sets of 12 reps per leg</li> <li>Marching in Place: 2 sets of 30 seconds</li> <li><strong>Cool Down:</strong> 5 minutes of stretching</li> </ul> <h3>Sunday: Rest or Active Recovery</h3> <p>Take a rest day or engage in light activity such as a 20-30 minute leisurely walk, gentle yoga, or stretching exercises.</p> <p>Stick with this routine, and you'll be on your way to losing weight and improving your fitness.</p>",
+        "stored": 0,
+        "storage_key": "",
+        "options": {},
+        "further_instructions": "$ WORKOUT_PLAN",
+        "next_response_id": "WORKOUT_PLAN"
+    },
+    {
+        "id": "WORKOUT_PLAN",
+        "response": "No matter your goal, exercise is paramount to a healthy lifestyle. Would you also like a personalized workout plan based on your goal? (yes / no)",
+        "stored": 0,
+        "storage_key": "",
+        "options": {"yes": "WORKOUT_PLAN_YES", "no": "WORKOUT_PLAN_NO"},
+        "further_instructions": "",
+        "next_response_id": "none"
+    },
+    {
+        "id": "WORKOUT_PLAN_YES",
+        "response": "$ WORKOUT_PLAN_",
+        "stored": 0,
+        "storage_key": "",
+        "options": {},
+        "further_instructions": "",
+        "next_response_id": ""
+    },
+    {
+        "id": "WORKOUT_PLAN_NO",
+        "response": "That's fine",
+        "stored": 0,
+        "storage_key": "",
+        "options": {},
+        "further_instructions": "$ FIXED_QUESTIONS",
+        "next_response_id": ""
+    },
+    {
+        "id": "WORKOUT_PLAN_WEIGHT_GAIN",
+        "response": "<p>Sure! Here’s a workout plan designed to help you build muscle mass. This plan focuses primarily on strength training exercises with minimal cardio to maximize muscle growth, which is ideal when increasing weight.</p> <h2>Muscle-Building Workout Plan:</h2> <h3>Monday: Upper Body</h3> <ul> <li><strong>Warm-Up:</strong> 5 minutes of light cardio (e.g., brisk walking or cycling)</li> <li>Bench Press: 3 sets of 8-12 reps</li> <li>Bent Over Rows: 3 sets of 8-12 reps</li> <li>Shoulder Press: 3 sets of 8-12 reps</li> <li>Bicep Curls: 3 sets of 10-15 reps</li> <li>Tricep Dips: 3 sets of 10-15 reps</li> <li><strong>Cool Down:</strong> 5 minutes of stretching</li> </ul> <h3>Tuesday: Lower Body</h3> <ul> <li><strong>Warm-Up:</strong> 5 minutes of light cardio</li> <li>Squats: 3 sets of 8-12 reps</li> <li>Deadlifts: 3 sets of 8-12 reps</li> <li>Lunges: 3 sets of 10-15 reps per leg</li> <li>Leg Press: 3 sets of 8-12 reps</li> <li>Calf Raises: 3 sets of 15-20 reps</li> <li><strong>Cool Down:</strong> 5 minutes of stretching</li> </ul> <h3>Wednesday: Rest or Active Recovery</h3> <p>Take a rest day or engage in light activity such as walking, yoga, or gentle stretching.</p> <h3>Thursday: Push Day (Chest, Shoulders, Triceps)</h3> <ul> <li><strong>Warm-Up:</strong> 5 minutes of light cardio</li> <li>Incline Bench Press: 3 sets of 8-12 reps</li> <li>Dumbbell Shoulder Press: 3 sets of 8-12 reps</li> <li>Chest Flyes: 3 sets of 10-15 reps</li> <li>Lateral Raises: 3 sets of 10-15 reps</li> <li>Tricep Pushdowns: 3 sets of 10-15 reps</li> <li><strong>Cool Down:</strong> 5 minutes of stretching</li> </ul> <h3>Friday: Pull Day (Back, Biceps)</h3> <ul> <li><strong>Warm-Up:</strong> 5 minutes of light cardio</li> <li>Pull-Ups or Lat Pulldowns: 3 sets of 8-12 reps</li> <li>Seated Rows: 3 sets of 8-12 reps</li> <li>Face Pulls: 3 sets of 10-15 reps</li> <li>Hammer Curls: 3 sets of 10-15 reps</li> <li><strong>Cool Down:</strong> 5 minutes of stretching</li> </ul> <h3>Saturday: Lower Body</h3> <ul> <li><strong>Warm-Up:</strong> 5 minutes of light cardio</li> <li>Leg Extensions: 3 sets of 10-15 reps</li> <li>Leg Curls: 3 sets of 10-15 reps</li> <li>Bulgarian Split Squats: 3 sets of 8-12 reps per leg</li> <li>Hip Thrusts: 3 sets of 10-15 reps</li> <li>Standing Calf Raises: 3 sets of 15-20 reps</li> <li><strong>Cool Down:</strong> 5 minutes of stretching</li> </ul> <h3>Sunday: Rest or Active Recovery</h3> <p>Take a rest day or engage in light activity such as walking, yoga, or gentle stretching.</p> <p>Stick with this routine, and you'll be on your way to building muscle and increasing your weight.</p>",
+        "stored": 0,
+        "storage_key": "",
+        "options": {},
+        "further_instructions": "$ FIXED_QUESTIONS",
+        "next_response_id": "FIXED_QUESTIONS"
+    },
+    {
+        "id": "WORKOUT_PLAN_WEIGHT_LOSS",
+        "response": "<p>Sure! Here’s a workout plan designed to help you burn calories and lose weight. This plan incorporates more cardio exercises along with light strength training to promote fat loss and improve overall fitness.</p><h2>Weight Loss Workout Plan:</h2><h3>Monday: Full Body Cardio and Strength</h3><ul><li><strong>Warm-Up:</strong> 5 minutes of brisk walking or light jogging</li><li>Bodyweight Squats: 2 sets of 15 reps</li><li>Push-Ups (modified if needed): 2 sets of 10 reps</li><li>Walking Lunges: 2 sets of 12 reps per leg</li><li>Dumbbell Rows (light weight): 2 sets of 15 reps per arm</li><li>Jumping Jacks: 2 sets of 30 seconds</li><li><strong>Cool Down:</strong> 5 minutes of stretching</li></ul><h3>Tuesday: Cardio Focus</h3><ul><li><strong>Warm-Up:</strong> 5 minutes of light jogging</li><li><strong>Steady-State Cardio (choose one):</strong><ul><li>30 minutes of brisk walking</li><li>30 minutes of cycling at a comfortable pace</li><li>30 minutes on an elliptical machine at a moderate intensity</li></ul></li><li><strong>Cool Down:</strong> 5 minutes of stretching</li></ul><h3>Wednesday: Active Recovery</h3><p>Engage in light activity such as a 20-30 minute leisurely walk, gentle yoga, or stretching exercises.</p><h3>Thursday: Upper Body and Cardio</h3><ul><li><strong>Warm-Up:</strong> 5 minutes of light jogging</li><li>Seated Dumbbell Shoulder Press (light weight): 2 sets of 15 reps</li><li>Bicep Curls (light weight): 2 sets of 15 reps</li><li>Tricep Extensions (light weight): 2 sets of 15 reps</li><li><strong>Low-Impact Cardio (choose one):</strong><ul><li>20 minutes of swimming</li><li>20 minutes of a low-impact aerobics class</li></ul></li><li><strong>Cool Down:</strong> 5 minutes of stretching</li></ul><h3>Friday: Lower Body and Cardio</h3><ul><li><strong>Warm-Up:</strong> 5 minutes of brisk walking</li><li>Bodyweight Squats: 2 sets of 15 reps</li><li>Glute Bridges: 2 sets of 15 reps</li><li>Standing Calf Raises: 2 sets of 20 reps</li><li><strong>Low-Impact Cardio (choose one):</strong><ul><li>20 minutes of water aerobics</li><li>20 minutes of cycling at a moderate pace</li></ul></li><li><strong>Cool Down:</strong> 5 minutes of stretching</li></ul><h3>Saturday: Full Body Cardio and Strength</h3><ul><li><strong>Warm-Up:</strong> 5 minutes of brisk walking or light jogging</li><li>Dumbbell Deadlifts (light weight): 2 sets of 15 reps</li><li>Modified Push-Ups: 2 sets of 10 reps</li><li>Step-Ups onto a bench or sturdy chair: 2 sets of 12 reps per leg</li><li>Marching in Place: 2 sets of 30 seconds</li><li><strong>Cool Down:</strong> 5 minutes of stretching</li></ul><h3>Sunday: Rest or Active Recovery</h3><p>Take a rest day or engage in light activity such as a 20-30 minute leisurely walk, gentle yoga, or stretching exercises.</p><p>Stick with this routine, and you'll be on your way to losing weight and improving your fitness.</p>",
+        "stored": 0,
+        "storage_key": "",
+        "options": {},
+        "further_instructions": "$ FIXED_QUESTIONS",
+        "next_response_id": "END_CONVERSATION"
+    },
+    {
+        "id": "END_CONVERSATION",
+        "response": "Great! You should now be on track to realising your fitness goals. I hope I was able to guide you towards that path today.",
+        "stored": 0,
+        "storage_key": "",
+        "options": {},
+        "further_instructions": "",
+        "next_response_id": "FIXED_QUESTIONS"
+    },
+    {
+        "id": "FIXED_QUESTIONS",
+        "response": "Feel free to ask questions related to the following topics in fitness: ",
+        "stored": 0,
+        "storage_key": "",
+        "options": {},
+        "further_instructions": "",
+        "next_response_id": "end"
+    }
+]

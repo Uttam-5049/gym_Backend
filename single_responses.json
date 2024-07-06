@@ -1,0 +1,14 @@
+[
+    {
+        "response": "Hey! Go ahead by asking any of the following questions related to fitness and exercise:",
+        "listOfWords": "hi hey sup whatsup"
+    },
+    {
+        "response": "Goodbye! I hope I was of help to you today. If you have further questions, feel free to ask from the catalogue of questions I have available.",
+        "listOfWords": "goodbye bye"
+    },
+    {
+        "response": "You're Welcome! I hope I was of help to you today. If you have further questions, feel free to ask from the catalogue of questions I have available.",
+        "listOfWords": "thanks thank you"
+    }
+]
