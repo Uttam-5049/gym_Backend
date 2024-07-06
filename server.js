@@ -9,10 +9,10 @@ const cors = require("cors"); // Import the CORS package
 const app = express();
 
 // CORS configuration
-const corsOptions = {
-  origin: "http://localhost:3000", // replace with your frontend URL
-  optionsSuccessStatus: 200, // some legacy browsers choke on 204
-};
+// const corsOptions = {
+//   origin: "http://localhost:3000", // replace with your frontend URL
+//   optionsSuccessStatus: 200, // some legacy browsers choke on 204
+// };
 
 app.use(cors(corsOptions)); // Use CORS with the specified options
 
