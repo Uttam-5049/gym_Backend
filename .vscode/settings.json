@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/378b8219-1ca5-453a-8ec3-c4e20d6bac40/resourceGroups/gymChatBot/providers/Microsoft.Web/sites/GymCHatBot",
+    "appService.deploySubpath": "."
+}
